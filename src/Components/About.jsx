@@ -16,27 +16,30 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/about.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Versatile computer engineering student with proficiency in procedural and object-oriented programming, front-end development, data engineering, networking, and cybersecurity across diverse technologies.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Programming logic and design",
+  "Data analysis, visualization, and automation",
+  "Database management system",
+  "Front-end development",
+  "Android development",
+  "Embedded  systems",
+  "Computer networks design",
+  "Cybersecurity",
+  "Computer-aidied design",
 ];
 
 /**
@@ -45,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Committed to continuous learning and currently pursuing certifications, focusing on cloud computing. Dedicated to problem-solving using AI and ML, upskilling for future challenges. Actively engaging with dynamic tech communities to broaden knowledge and contribute to collaborative learning environments.";
 
 const About = () => {
   return (
