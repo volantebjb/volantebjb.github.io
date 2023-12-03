@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Barron Joshua Volante",
   "source": "src/index.html",
-  "homepage": "https://volantebjb.github.io/test-mlsa",
+  "homepage": "https://volantebjb.github.io",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://volantebjb.github.io/test-mlsa'",
+    "build-gh": "parcel build --public-url 'https://volantebjb.github.io'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
