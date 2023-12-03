@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://volantebjb.github.io/sa-portfolio-website",
+  "homepage": "https://volantebjb.github.io/volantebjb.github.io",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://volantebjb.github.io/sa-portfolio-website'",
+    "build-gh": "parcel build --public-url 'https://volantebjb.github.io/volantebjb.github.io'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
